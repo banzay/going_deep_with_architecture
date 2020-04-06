@@ -20,7 +20,7 @@ The **read model** is optimised for querying, using whatever technology is most 
 ```
 Commands 
     do   ---update----> Write model (insert Domain events in EventStore)
-    they ---update----> Read model
+    they ---projected into----> Read model
     it   ---is used for----> Queries
 ```
 
